@@ -38,15 +38,15 @@ body {
 
 .s-hand {
   height: 1px;
-  width: 120px;
+  width: 100px;
 }
 
 .m-hand {
   height: 3px;
-  width: 100px;
+  width: 90px;
 }
 
 .h-hand {
   height: 6px;
-  width: 80px;
+  width: 70px;
 }
