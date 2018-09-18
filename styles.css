@@ -1,0 +1,52 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to top right, #3F5EFB, #FC466B);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.clock {
+  border: 10px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.s-hand, .m-hand, .h-hand {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+}
+
+.s-hand {
+  height: 1px;
+  width: 120px;
+}
+
+.m-hand {
+  height: 3px;
+  width: 100px;
+}
+
+.h-hand {
+  height: 6px;
+  width: 80px;
+}
